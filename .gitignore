@@ -1,3 +1,10 @@
+### EDSS Ignores
+# Logs, Saves, Tensorboard, et c.
+experiments/**
+# But not the design schemas themselves
+!experiments/*.yml
+
+### Standard Python Ignores
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
