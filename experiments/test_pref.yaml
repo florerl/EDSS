@@ -1,0 +1,31 @@
+features:
+- build_actions:
+  - cost: 10
+    minWork: 0
+    aveWork: 10
+  test_actions:
+  - cost: 5
+    specificity: 1.0
+    sensitivity: 1.0
+  - cost: 1
+    specificity: 0.9
+    sensitivity: 0.9
+  - cost: 0
+    specificity: 0.5
+    sensitivity: 0.5
+- build_actions:
+  - cost: 100
+    minWork: 0
+    aveWork: 1
+  test_actions:
+  - cost: 10
+    specificity: 1
+    sensitivity: 1
+  - cost: 0
+    specificity: .5
+    sensitivity: .5
+budget: 250
+profit_elems:
+  1: 20000
+  2: 1000
+  3: 50000
