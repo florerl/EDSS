@@ -1,0 +1,10 @@
+gymnasium
+pyyaml
+schema
+stable_baselines3
+tensorboard
+psutil
+tqdm
+rich
+sb3-contrib
+tabulate
